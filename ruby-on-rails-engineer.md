@@ -84,8 +84,14 @@ After, I would add weights to how much a user is particular towards a certain ge
 
 The weights of the genres and weights of the authors would themselves vary as to how much they would be taken into account. To best decide upon this, I would use a Command pattern file to contain the logic as to how much the weights of Author and Genre preferences are taken into account and afterwards adjust in a single spot the algorithm.
 
-I would also use  
+A proposed solution could include usage of graphs to ease calculations of connection weights between nodes (User, Author, Book, Genre).
+
+We can use one of the common solutions proposed for recommendation systems: collaborative, content-based, multi-criteria.
+
+Another possibility for recommendations would also be scanning which books a user looks at often even out of curiosity. If a user checks the same book once every month due to external recommendations, without noticing, our engine could take that into consideration as well, to recommand that book.  
 
 #### Question 5 (bonus)
 
 Provide a simple implementation for recommendations in question 4.
+
+If the solutions proposed so far work, I will gladly provide the recommendations for question 5
