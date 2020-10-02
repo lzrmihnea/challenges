@@ -70,11 +70,21 @@ Implement a Payment Factory to process payments with multiple adapter (Stripe, P
 Your code should respect SOLID principles as much as possible.
 Provide only the design without any concrete methods implementation.
 
+Implementation can be found in `payment_factory.rb`
+
 #### Question 4
 
 With the previous data schema (question 2), with a list of genres for each books, how would you
 build a recommendation system.
 What kind of dependencies, tools or algorithms you would like to use?
+
+Using the data model from question 2, I would add a genre Model with a many-to-many connection to the books.
+
+After, I would add weights to how much a user is particular towards a certain genre and take into consideration when building the recommendation system.
+
+The weights of the genres and weights of the authors would themselves vary as to how much they would be taken into account. To best decide upon this, I would use a Command pattern file to contain the logic as to how much the weights of Author and Genre preferences are taken into account and afterwards adjust in a single spot the algorithm.
+
+I would also use  
 
 #### Question 5 (bonus)
 
