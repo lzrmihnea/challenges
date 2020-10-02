@@ -7,6 +7,16 @@ https://angel.co/reedsy/jobs/64263-ruby-on-rails-engineer
 Write a paragraph about yourself, your hobbies and your major achievements in your career or study
 so far. Add another one about your professional experience and commercial projects you've been involved with.
 
+My name is Mihnea Lazar, a Software Engineer since 2013.
+__As for hobbies__, I enjoy reading both fiction and non-fiction, writing fiction, working out in the gym and the occasional movie or series.
+
+Among my __major achievements__ so far, I'd enumerate among the __professional ones__:
+* leading a team of 7 developers for a year and a half in which we tackled features and upgrades on a production project with quite some technological debt
+* managing a Competence Center of 80-100 developers for the past 3 years, focusing on members' Competencies Development
+* going in the past 4 years from mid-level developer to team-lead and then architect/senior software engineer through 3 successful production projects
+* teaching a Design Pattern laboratory and course at the local university for 2 semester 
+* coordinating 2 summer internships with a total of 20 interns and 40 mentors 
+
 #### Question 2
 
 How would you implement a feed generator for a specific user, based on their upvotes and the authors
